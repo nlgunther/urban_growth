@@ -1,0 +1,12 @@
+[project]
+name = "muthmills"
+version = "0.1.0"
+description = "Muth-Mills monocentric city: solver, comparative statics, rent/land-value scenarios"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "loguru"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["muthmills"]

@@ -1,0 +1,25 @@
+# muthmills file manifest
+# Generated: 2026-09-30 23:44 UTC
+# Format:  sha256_prefix<TAB>local_path
+# Comments (lines starting with #) and blank lines are ignored.
+# Update only the hash values when files change.
+# verify_install.py reads this file — do not change the format.
+# Note: hashes computed with CRLF normalisation (Windows-compatible).
+# Bundle: SHA-256 of sorted file hashes concatenated (hash-of-hashes).
+#
+bundle:	1c1a087e64949bc57ef93b59
+#
+# Source files
+3373c6351a2b32ca	muthmills/__init__.py
+253f303c06f1df52	muthmills/primitives.py
+4fdaa816c65ab079	muthmills/city.py
+555d7d672d12b564	muthmills/statics.py
+33b97dcdb918d34b	muthmills/valuation.py
+3adee375b2a6cace	tests/conftest.py
+099ae7903da6e524	tests/test_city.py
+a45f25a9c997c438	tests/test_statics.py
+1821813dad06ca1d	tests/test_valuation.py
+bb6904db056a94dd	verify_install.py
+08cf08707bfc58bc	pyproject.toml
+#
+# Tests: 28 methods (parametrised cases not counted)
